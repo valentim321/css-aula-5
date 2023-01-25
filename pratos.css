@@ -1,0 +1,56 @@
+.button-as-link {
+    background-color: beige;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+.caixa{
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    flex-grow: 1;
+    transition: 3s;
+    font-size: 1.3em;
+    background-color: beige;
+}
+.recipiente {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.caixa:hover
+{
+    background-color: grey;
+    flex-grow: 2;
+    max-width: 100%;
+    font-size: 2em;
+    color: #fff;
+}
+p{
+    color: #fff;
+}
+.recipiente .caixa:nth-child(1){
+    background-image: url(https://www.shutterstock.com/image-photo/chicken-stroganoff-estrogonofe-de-frango-260nw-1787757890.jpg) 
+}
+.recipiente .caixa:nth-child(2){
+    background-image: url(https://www.shutterstock.com/image-photo/delicious-home-made-keto-diet-260nw-1912288672.jpg)
+}
+.recipiente .caixa:nth-child(3)
+{
+    background-image: url(https://www.comidaereceitas.com.br/wp-content/uploads/2017/02/churrasco_picanha_maturada.jpg);
+}
+.recipiente .caixa:nth-child(4)
+{
+    background-image: url(https://www.mmo.co.mz/wp-content/uploads/2021/01/Empadinhas-de-Frango.jpg);
+}
+.recipiente .caixa:nth-child(5)
+{
+    background-image: url(https://i.pinimg.com/originals/fb/cc/e7/fbcce7312b2b93bd9b940e9c9f16b628.jpg);
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+}
+
+.caixa {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #e5e5e5;
+    border-top: 5px solid #51d4db;
+    animation-name: name;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: forwards;
+    animation-play-state: running;
+} 
+@keyframes name {
+    to {
+        transform: rotate(1turn);
+    }
+}
